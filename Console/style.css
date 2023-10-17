@@ -1,0 +1,14 @@
+@import url(Valorant\ Font.ttf);
+body{
+    font-family: valorant;
+    background-image: url(photos/front-view-woman-reading-comics\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+@font-face {
+    font-family: valorant ;
+    src: url(Valorant\ Font.ttf);
+}
+
