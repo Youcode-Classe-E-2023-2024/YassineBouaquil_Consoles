@@ -1,0 +1,71 @@
+@font-face {
+    font-family: valorant ;
+    src: url(Valorant\ Font.ttf);
+}
+
+body{
+    font-family: valorant;
+    background-image: url(photos/front-view-woman-reading-comics\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+button{
+    border: none;
+    padding: 0;
+    background: #FE277E;
+    cursor: pointer;
+    font-family: valorant;
+}
+.ident{
+    background-color: #FE277E;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+
+.ident:hover{
+    background-color: aliceblue;
+    color: #FE277E;
+}
+.logo-and-ident{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+
+ul {
+    list-style: none;
+    padding: 50px;
+    margin: 0;
+    
+}
+
+nav {
+    
+    text-align: center;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+}
+nav li{
+    margin: 0 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 34px ;
+
+}
