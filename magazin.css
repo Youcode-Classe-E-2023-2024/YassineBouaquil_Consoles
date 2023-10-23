@@ -1,0 +1,88 @@
+@font-face {
+    font-family: valorant ;
+    src: url(Valorant\ Font.ttf);
+}
+*{
+    margin: 0;
+    padding:0 ;
+}
+body{
+    font-family: valorant;
+    background-image: url(photos/Rectangle\ 5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ul {
+    list-style: none;
+    padding: 50px;
+    margin: 0;
+    
+}
+
+nav {
+    
+    text-align: center;
+    padding: 40px;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+}
+nav li{
+    margin: 0 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 34px ;
+
+}
+
+.title{
+    color: #FF007E;
+    color: color(display-p3 0.9961 0.1529 0.4941);
+    font-family: VALORANT;
+    font-size: 114.24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.title img{
+ 
+}
+.consol-N0{
+    display: flex;
+    justify-content: space-around;
+
+}
+.parag-button p{
+    color: #FFF;
+    color: color(display-p3 1 1 1);
+    text-align: center;
+    text-shadow: 5px 4px 4px #000;
+    text-shadow: 5px 4px 4px color(display-p3 0 0 0);
+    font-family: VALORANT;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+}
+.parag-button button{
+    background-color: #FCFE19;
+    color: #FF007E;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    font-family: valorant;
+    cursor: pointer;
+}
+.consol-N0{
+    
+}

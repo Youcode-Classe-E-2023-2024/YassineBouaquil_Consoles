@@ -2,15 +2,22 @@
     font-family: valorant ;
     src: url(Valorant\ Font.ttf);
 }
-
+*{
+    margin: 0;
+    padding:0 ;
+}
 body{
     font-family: valorant;
     background-image: url(photos/front-view-woman-reading-comics\ 1.png);
     background-size: cover;
     background-repeat: no-repeat;
-    
-}
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
 
+}
 
 button{
     border: none;
@@ -28,7 +35,10 @@ button{
     border-radius: 10px;
     transition: background-color 0.3s ease;
 }
-
+.inscr-button{
+    display: flex;
+    justify-content: center;
+}
 
 .ident:hover{
     background-color: aliceblue;
@@ -68,4 +78,90 @@ nav a {
     color: #ffffff;
     font-size: 34px ;
 
+}
+.title{
+    text-transform: uppercase;
+    text-shadow: 0.5px -0.5px #FE277E;   
+    color: #ffffff ;
+    font-size:  40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.title2{
+    text-transform: uppercase;
+    text-shadow: 0.5px -0.5px #ffffff;   
+    color: #FE277E ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.tit{
+    padding: 100px;
+}
+.source{
+    text-transform: uppercase;
+    text-shadow: 0.5px -0.5px #000000;   
+    color: #FE277E ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+input.inscr{
+    font-family: valorant;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(254, 254, 254);
+    padding: 10px; 
+    margin-right: 2rem;
+
+    display: block;
+    width: 376px;
+    height: 59px;
+    font-size: 22px;
+    text-align: center;
+}
+footer {
+    
+    background-color: #333;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    
+}
+
+footer p {
+    margin: 0;
+}
+h1 {
+    color: #ffffff;
+}
+
+.game {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+}
+.choice {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
 }
