@@ -1,0 +1,32 @@
+body{
+    background-image: url(photos/Rectangle\ 6.png);
+}
+ul {
+    list-style: none;
+    padding: 50px;
+    margin: 0;
+    
+}
+
+nav {
+    
+    text-align: center;
+    padding: 40px;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+}
+nav li{
+    margin: 0 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 34px ;
+
+}
