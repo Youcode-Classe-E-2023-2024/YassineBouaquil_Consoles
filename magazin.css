@@ -2,6 +2,7 @@
     font-family: valorant ;
     src: url(Valorant\ Font.ttf);
 }
+
 *{
     margin: 0;
     padding:0 ;
@@ -84,5 +85,6 @@ nav a {
     cursor: pointer;
 }
 .consol-N0{
-    
+    display: flex;
+    align-items: center; 
 }
