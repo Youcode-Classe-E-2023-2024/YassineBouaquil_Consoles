@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: chinese Rocks Rg;
+    background-image: url(photos/Rectangle\ 7.png);
+}
+ul {
+    list-style: none;
+    padding: 50px;
+    margin: 0;
+    
+}
+
+nav {
+    
+    text-align: center;
+    padding: 40px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+}
+nav li{
+    margin: 0 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 34px ;
+
+}
+.title{
+    color: #FCFE00;
+    color: color(display-p3 0.9882 0.9961 0.098);
+    font-family: chinese Rocks Rg;
+    font-size: 114.24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.contact-informations{
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    flex-direction: column;   
+}
