@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body{
     font-family: chinese Rocks Rg;
     background-image: url(photos/Rectangle\ 6.png);
@@ -164,6 +169,34 @@ letter-spacing: 2.55px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.ident{
+    background-color: #FE277E;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    font-family: Chinese Rocks;
+}
+.ident:hover{
+    background-color: aliceblue;
+    color: #FE277E;
+}
+
+footer {
+    
+    background-color: #333;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    
+}
+
+footer p {
+    margin: 0;
 }
 
 
