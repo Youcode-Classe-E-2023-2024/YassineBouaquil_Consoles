@@ -1,6 +1,6 @@
 body{
-    background-image: url(photos/Rectangle\ 6.png);
     font-family: chinese Rocks Rg;
+    background-image: url(photos/Rectangle\ 6.png);
 }
 ul {
     list-style: none;
@@ -13,7 +13,11 @@ nav {
     
     text-align: center;
     padding: 40px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
     
+}
+nav:hover{
+    filter: blur(3px);
 }
 
 nav ul {
@@ -41,15 +45,17 @@ nav a {
     flex-direction: column;
  
 }
-.title img{
- 
-}
+
 .consol-N0{
     justify-content: space-around;
     display: flex;
     align-items: center;
     padding: 50px;
 }
+.consol-N0 img{
+    cursor: pointer;
+}
+
 .parag-button p{
 
     color: #FF007E;
@@ -89,3 +95,22 @@ font-weight: 400;
 line-height: 115%; /* 34.5px */
 letter-spacing: 2.55px;
 }
+
+
+
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+
+
+
+
+
+
+
