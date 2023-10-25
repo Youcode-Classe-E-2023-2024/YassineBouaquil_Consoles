@@ -105,7 +105,13 @@ nav a {
 footer p {
     margin: 0;
 }
+.btnIdent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .ident{
+  
     background: #FCFE00;
     background: color(display-p3 0.9882 0.9961 0.098);
     font-size: 20px;
@@ -119,6 +125,8 @@ footer p {
     text-align: center;
     margin: 10px;
     padding: 10px;
+   
+
 }
 .ident:hover{
     background-color: rgb(0, 0, 0);
