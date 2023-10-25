@@ -132,3 +132,14 @@ footer p {
 .father:hover .menu{
     left: 0;
 }
+
+@media (max-width:1092px) {
+    
+    .consol-N0{
+        flex-direction: column;
+    }
+    .parag-button{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

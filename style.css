@@ -193,10 +193,13 @@ h1 {
     .menu a:hover{
         color: yellow   ;
     }
-    
+   
 }
 .father:hover .menu{
     left: 0;
+}
+@media (max-width:100px) {
+    
 }
 /* Object-fit:contain;
 with:100%;
