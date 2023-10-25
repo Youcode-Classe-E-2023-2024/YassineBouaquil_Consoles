@@ -166,3 +166,9 @@ footer p {
 .father:hover .menu{
     left: 0;
 }
+@media (max-width:900px) {
+    .all-input{
+        flex-direction: column-reverse;
+    }
+    
+}
