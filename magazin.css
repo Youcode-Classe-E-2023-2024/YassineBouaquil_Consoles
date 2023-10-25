@@ -99,3 +99,36 @@ footer {
 footer p {
     margin: 0;
 }
+.fa-solid{
+    display: none;
+}
+
+@media (max-width:600px) {
+    .menu{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        left: 100%;
+        backdrop-filter: blur(20px);
+        width: 100%;
+        transition: 0.3s;
+        padding: 0;
+
+    }
+    .fa-solid{
+        display: block;
+    }
+    .menu li{
+        padding: 20px;
+    }
+    .lahi7fed{
+        background-color: black;
+    }
+    .menu a:hover{
+        color: yellow   ;
+    }
+    
+}
+.father:hover .menu{
+    left: 0;
+}
